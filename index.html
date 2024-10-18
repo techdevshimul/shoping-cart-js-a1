@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shimul's Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shimul's Shopping Cart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="d-flex pro-cart">
+
+            <div class="product-items mt-3 d-flex flex-wrap align-items-center justify-content-center">
+
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="./assets/images/pro-one.png" class="card-img-top" alt="product image">
+                    <div class="card-body">
+                        <h5 class="card-title">Flower One</h5>
+                        <p class="card-text">This flowers makes you happy instantly.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Color : Red</li>
+                        <li class="list-group-item">Quality : A</li>
+                        <li class="list-group-item">Origin : BD</li>
+                        <li class="list-group-item"><b>Price : 20$</b></li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary w-100" id="p1">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="./assets/images/pro-two.png" class="card-img-top" alt="product image">
+                    <div class="card-body">
+                        <h5 class="card-title">Flower Two</h5>
+                        <p class="card-text">Happiness held is the seed; Happiness shared is the flower.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Color : Red</li>
+                        <li class="list-group-item">Quality : A</li>
+                        <li class="list-group-item">Origin : China</li>
+                        <li class="list-group-item"><b>Price : 18$</b></li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary w-100" id="p2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="./assets/images/pro-three.png" class="card-img-top" alt="product image">
+                    <div class="card-body">
+                        <h5 class="card-title">Flower Three</h5>
+                        <p class="card-text">Love is the flower you’ve got to let grow.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Color : Red & White</li>
+                        <li class="list-group-item">Quality : A</li>
+                        <li class="list-group-item">Origin : India</li>
+                        <li class="list-group-item"><b>Price : 19$</b></li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary w-100" id="p3">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="./assets/images/pro-four.png" class="card-img-top" alt="product image">
+                    <div class="card-body">
+                        <h5 class="card-title">Flower Four</h5>
+                        <p class="card-text">If you look the right way, you see that the whole world is a garden.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Color : Orange</li>
+                        <li class="list-group-item">Quality : A</li>
+                        <li class="list-group-item">Origin : Srilanka</li>
+                        <li class="list-group-item"><b>Price : 15$</b></li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary w-100" id="p4">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="./assets/images/pro-five.png" class="card-img-top" alt="product image">
+                    <div class="card-body">
+                        <h5 class="card-title">Flower Five</h5>
+                        <p class="card-text">Love is like wildflowers; it’s often found in the most unlikely places.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Color : Yellow</li>
+                        <li class="list-group-item">Quality : A</li>
+                        <li class="list-group-item">Origin : Nepal</li>
+                        <li class="list-group-item"><b>Price : 18$</b></li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary w-100" id="p5">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="./assets/images/pro-six.png" class="card-img-top" alt="product image">
+                    <div class="card-body">
+                        <h5 class="card-title">Flower Six</h5>
+                        <p class="card-text">Take time to smell the roses. They will make you happy.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Color : Red</li>
+                        <li class="list-group-item">Quality : A</li>
+                        <li class="list-group-item">Origin : Bhutan</li>
+                        <li class="list-group-item"><b>Price : 20$</b></li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary w-100" id="p6">Add To Cart</button>
+                    </div>
+                </div>                
+
+            </div>
+
+            <div class="cart mt-3">
+                <div class="card m-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Shopping Cart</h5>                        
+                    </div>
+                    <ul class="list-group list-group-flush" id="cart-list">
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-warning w-100" id="clr-cart">Clear Cart</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class="my-4">
+        <hr>
+        <p class="text-center text-body-secondary">© 2024 Shimul Hossain</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

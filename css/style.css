@@ -1,0 +1,9 @@
+.dustbin {
+    width: 30px;
+}
+
+@media (max-width: 768px) {
+    .pro-cart {
+        flex-wrap: wrap;
+    }
+}
